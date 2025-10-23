@@ -1,0 +1,37 @@
+# Dependabot configuration for AgriSurvey Platform
+# Auto-updates dependencies to keep project secure and up-to-date
+
+version: 2
+updates:
+  # Enable version updates for npm
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "06:00"
+      timezone: "Europe/Brussels"
+    open-pull-requests-limit: 5
+    reviewers:
+      - "enzoxic"
+    assignees:
+      - "enzoxic"
+    commit-message:
+      prefix: "chore"
+      include: "scope"
+    labels:
+      - "dependencies"
+      - "automerge"
+    # Group updates for better PR management
+    groups:
+      production-dependencies:
+        patterns:
+          - "next"
+          - "react"
+          - "react-dom"
+      development-dependencies:
+        patterns:
+          - "@types/*"
+          - "typescript"
+          - "eslint*"
+          - "tailwindcss"
