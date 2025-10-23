@@ -2,7 +2,7 @@
 
 ## 🔒 Supported Versions | Versions Supportées
 
-Currently supported versions of AgriSurvey Platform receiving security updates:
+Currently supported versions of CitizenHub Platform receiving security updates:
 
 | Version | Supported          | Support End Date |
 | ------- | ------------------ | ---------------- |
@@ -12,7 +12,7 @@ Currently supported versions of AgriSurvey Platform receiving security updates:
 
 ## 🐛 Reporting a Vulnerability | Signaler une Vulnérabilité
 
-We take security seriously. If you discover a security vulnerability in AgriSurvey Platform, please follow these steps:
+We take security seriously. If you discover a security vulnerability in CitizenHub Platform, please follow these steps:
 
 ### 🇫🇷 Français
 
@@ -62,11 +62,11 @@ We take security seriously. If you discover a security vulnerability in AgriSurv
 - ✅ Encrypted data in transit (TLS 1.3)
 - ✅ Regular security audits
 
-### Drone Systems Security
-- ✅ Encrypted MAVLink communications
-- ✅ Authentication required for fleet control
-- ✅ Geofencing (No-Fly Zones) enforced
-- ✅ Emergency stop mechanisms
+### Civic Tech & Voting Security
+- ✅ Blockchain-secured voting (immutable audit trail)
+- ✅ End-to-end encryption for citizen communications
+- ✅ Anonymous voting with identity verification
+- ✅ DDoS protection for critical voting periods
 
 ### Infrastructure
 - ✅ Automated dependency updates (Dependabot)
