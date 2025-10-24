@@ -100,7 +100,9 @@ export default function Home() {
             WebkitTextFillColor: 'transparent',
             marginBottom: '20px',
             fontWeight: 800,
-            textShadow: '0 4px 20px rgba(255, 152, 0, 0.25), 0 8px 40px rgba(255, 152, 0, 0.15)'
+            textShadow: '0 4px 20px rgba(255, 152, 0, 0.25), 0 8px 40px rgba(255, 152, 0, 0.15), 0 0 60px rgba(255, 255, 255, 0.4)',
+            WebkitTextStroke: '1px rgba(255, 255, 255, 0.15)',
+            filter: 'drop-shadow(0 2px 4px rgba(0, 229, 255, 0.3))'
           }}>
             🏛️ CitizenHub Platform
           </h1>
