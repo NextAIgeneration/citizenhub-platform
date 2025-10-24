@@ -99,7 +99,8 @@ export default function Home() {
             WebkitBackgroundClip: 'text',
             WebkitTextFillColor: 'transparent',
             marginBottom: '20px',
-            fontWeight: 800
+            fontWeight: 800,
+            textShadow: '0 4px 20px rgba(255, 152, 0, 0.25), 0 8px 40px rgba(255, 152, 0, 0.15)'
           }}>
             🏛️ CitizenHub Platform
           </h1>
