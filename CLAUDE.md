@@ -1,15 +1,52 @@
 # CLAUDE.md - CitizenHub Platform
 
-**Last Updated**: 24 Octobre 2025 - 11:10
+**Last Updated**: 25 Octobre 2025 - Optimisation Charte Graphique
 **Project Status**: ✅ Production Ready (Vercel deployed)
 
 ---
 
-## 📋 SESSION RÉCENTE (24 Oct 2025 - Matin)
+## 📋 SESSION RÉCENTE (25 Oct 2025 - Optimisation Visuelle)
 
-### **Travail Effectué**
+### **Charte Graphique 3ème Couleur Complémentaire**
 
-**Corrections Charte Graphique:**
+**Visual Enhancement Applied:**
+- ✅ Added 3rd complementary color (White #FFF + Cyan bright #00E5FF) to title styling
+- ✅ Added `WebkitTextStroke: '1px rgba(255, 255, 255, 0.15)'` for civic text outline
+- ✅ Added `filter: 'drop-shadow(0 2px 4px rgba(0, 229, 255, 0.3))'` for cyan bright depth
+- ✅ Enhanced textShadow system with 3 layers:
+  - Layer 1: Orange shadow (close + visible) - 0.25 alpha
+  - Layer 2: Orange diffuse (far + soft) - 0.15 alpha
+  - Layer 3: White brilliant glow (omnidirectional NEW) - 0.4 alpha
+
+**Color Palette (Triadic):**
+```yaml
+Primary: Blue #1565C0 (gradient)
+2nd Complementary: Orange #FF9800 (directional shadow)
+3rd Complementary: White #FFF + Cyan bright #00E5FF (clarity + democracy theme)
+```
+
+**Visual Impact:**
+- 🏛️ Institutional icon reinforced with clarity
+- Democratic transparency (white) + digital modernity (cyan bright)
+- Optimal civic tech contrast
+- Title separated from background with stronger stroke (0.15 alpha)
+
+**Reference:**
+- Exemplar pattern: COSMIC RAG GitHub
+- Documentation: `/Users/enzoxic/Documents/fft-mercure-vault/📝 Notes/🎨 CHARTE GRAPHIQUE - 3ème Couleur Complémentaire.md`
+
+**Commits:**
+- `e3bf174` (GitHub) / `33a0abc` (GitLab) - style: Add 3rd complementary color
+- Pushed to GitHub + GitLab successfully (after rebase resolution)
+- Build successful: 11 pages generated (1000.4ms)
+
+---
+
+## 📋 SESSION (24 Oct 2025 - Matin)
+
+### **Corrections Charte Graphique Précédente**
+
+**2nd Complementary Color Applied:**
 - ✅ Added orange complementary shadow to title (blue #1565C0 + orange #FF9800 shadow)
 - ✅ Enhanced visual contrast consistent with other COSMIC projects
 - ✅ Git author fixed: contact@fredfrenchtouch.com → enzo.c.dv1975@gmail.com
