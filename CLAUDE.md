@@ -1,21 +1,25 @@
 # CLAUDE.md - CitizenHub Platform
 
-**Last Updated**: 24 Octobre 2025 - 23:20
+**Last Updated**: 24 Octobre 2025 - 11:10
 **Project Status**: ✅ Production Ready (Vercel deployed)
 
 ---
 
-## 📋 SESSION RÉCENTE (24 Oct 2025)
+## 📋 SESSION RÉCENTE (24 Oct 2025 - Matin)
 
 ### **Travail Effectué**
 
-**Corrections & Optimisations:**
-- ✅ Fixed `.github/SECURITY.md` - Updated project name (AgriSurvey → CitizenHub)
-- ✅ Fixed `.github/dependabot.yml` - Updated project name in comments
-- ✅ Customized security measures for civic tech (blockchain voting, DDoS protection)
-- ✅ Pushed fixes to GitLab Mercure + GitHub NextAIgeneration
+**Corrections Charte Graphique:**
+- ✅ Added orange complementary shadow to title (blue #1565C0 + orange #FF9800 shadow)
+- ✅ Enhanced visual contrast consistent with other COSMIC projects
+- ✅ Git author fixed: contact@fredfrenchtouch.com → enzo.c.dv1975@gmail.com
+- ✅ Deployed to production with new shadow
 
 **Commits:**
+- `c355132` - style: Ajout shadow orange complémentaire pour contraste
+- `a48edb9` - style: Ajout shadow orange (pushed to GitHub + GitLab)
+
+**Sessions Précédentes:**
 - `b767630` - fix: Correct project name in GitHub config files
 
 **Documentation:**
